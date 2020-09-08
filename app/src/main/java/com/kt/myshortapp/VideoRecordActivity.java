@@ -62,7 +62,7 @@ public class VideoRecordActivity extends AppCompatActivity implements Callback, 
     public MediaRecorder mediaRecorder = new MediaRecorder();
     private Camera mCamera;
     private Button btnStart;
-    private static final int PERMISSION_CODE = 1000;
+    private static final int PERMISSION_CODE = 1;
     private MediaPlayer player;
     private ProgressDialog progressDialog;
     private FFmpeg ffmpeg;
